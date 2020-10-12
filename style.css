@@ -1,0 +1,208 @@
+ #konteineris{
+ height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header{
+    text-align: center;
+    height: 30%;
+    width: 100%;
+}
+
+.pirmaskaireje{
+
+    width: 30%;
+    height: 100px,auto;
+    border: solid black;
+    background-color: darkgrey;
+}
+
+.antrascentre{
+
+    width: 30%;
+    height: 100px,auto;
+    border: solid black;
+    background-color: darkgrey;
+}
+.treciasdesineje{
+    width: 30%;
+    height: 100px,auto;
+    border: solid black;
+    background-color: darkgrey;
+}
+
+.chicken{
+
+    height:15px ;
+    width: 20% ;
+    background-color: bisque;
+    border: solid black;
+    padding: 2px;
+
+}
+
+
+.beef{
+
+    height:15px ;
+    width: 20% ;
+    background-color: red;
+    padding: 2px;
+    border: solid black;
+    color: white;
+}
+
+.sushi{
+
+    height:15px ;
+    width: 20% ;
+    background-color: gold;
+    padding: 2px;
+    border: solid black;
+}
+
+@media ((max-width: 768px) {
+    #konteineris{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    header{
+        text-align: center;
+        height: 30%;
+        width: 100%;
+    }
+
+    .pirmaskaireje{
+
+        width: 45%;
+        height: 100px,auto;
+        border: solid black;
+        background-color: darkgrey;
+        margin-bottom: 6px;
+    }
+
+    .antrascentre{
+
+        width: 45%;
+        height: 100px,auto;
+        border: solid black;
+        background-color: darkgrey;
+        margin-bottom: 6px;
+    }
+    .treciasdesineje{
+        width: 100%;
+        height: 100px,auto;
+        border: solid black;
+        background-color: darkgrey;
+    }
+
+    .chicken{
+
+        height:15px ;
+        width: 20% ;
+        background-color: bisque;
+        border: solid black;
+        padding: 2px;
+    }
+
+
+    .beef{
+
+        height:15px ;
+        width: 20% ;
+        background-color: red;
+        padding: 2px;
+        border: solid black;
+        color white;
+    }
+
+    .sushi{
+
+        height:15px ;
+        width: 20% ;
+        background-color: gold;
+        padding: 2px;
+        border: solid black;
+
+
+
+@media (max-width: 320px) {
+    #konteineris{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    header{
+        text-align: center;
+        height: 30%;
+        width: 100%;
+    }
+
+    .pirmaskaireje{
+
+        width: 80%;
+        height: 100px,auto;
+        border: solid black;
+        background-color: darkgrey;
+        margin-bottom: 6px;
+    }
+
+    .antrascentre{
+
+        width: 80%;
+        height: 100px,auto;
+        border: solid black;
+        background-color: darkgrey;
+        margin-bottom: 6px;
+    }
+    .treciasdesineje{
+        width: 80%;
+        height: 100px,auto;
+        border: solid black;
+        background-color: darkgrey;
+        margin-bottom: 6px;
+    }
+
+    .chicken{
+
+        height:15px ;
+        width: 20% ;
+        background-color: bisque;
+        border: solid black;
+        padding: 2px;
+    }
+
+
+    .beef{
+
+        height:15px ;
+        width: 20% ;
+        background-color: red;
+        padding: 2px;
+        border: solid black;
+        color white;
+    }
+
+    .sushi{
+
+        height:15px ;
+        width: 20% ;
+        background-color: gold;
+        padding: 2px;
+        border: solid black;
+
+
